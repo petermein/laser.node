@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title=`chat room (user#${number})`
+    link(rel='stylesheet', href='css/index.css') 
+  body
+    input#userid(type='hidden',value=number)
+    ul#messages
+    form(action='')
+      input#m(autocomplete='off')
+      button Send
+    script(src='/js/index.js')

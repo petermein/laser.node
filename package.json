@@ -1,0 +1,30 @@
+{
+  "name": "express.io.boilerplate",
+  "version": "1.0.2",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/express.io"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/express.io/issues"
+  },
+  "homepage": "https://github.com/postor/express.io#readme",
+  "dependencies": {
+    "browserify-middleware": "^7.1.0",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "node-sass-middleware": "^0.11.0",
+    "pug": "^2.0.0-beta6",
+    "serialport": "^5.0.0",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "virtual-serialport": "^4.0.1"
+  }
+}
