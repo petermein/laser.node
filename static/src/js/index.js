@@ -7,7 +7,7 @@ let $ = require('jquery');
 $('form').submit(function(){
   let msg = $('#m').val();
   let userid = $('#userid').val();
-  socket.emit('chat message', `user#${userid}:${msg}`);
+  socket.emit('chat message', `${msg}`);
   $('#m').val('');
   return false;
 });
